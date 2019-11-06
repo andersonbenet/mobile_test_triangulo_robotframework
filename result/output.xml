@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20181129 14:00:08.463">
-<suite id="s1" name="Triangulo Test" source="C:\Users\anderson.benet\git\mobile_test_triangulo_robotframework\test\triangulo_test.robot">
+<robot generator="Robot 3.1.2 (Python 3.7.5 on win32)" generated="20191105 16:35:17.683" rpa="false">
+<suite id="s1" name="Triangulo Test" source="C:\Users\anderson_benet\PycharmProjects\mobile_test_triangulo_robotframework\test\triangulo_test.robot">
 <test id="s1-t1" name="CT 001: Start application CTAppium">
 <kw name="Start App CTAppium" library="triangulo_resource">
 <kw name="Open Application" library="AppiumLibrary">
-<doc>Opens a new application to given Appium server.</doc>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
 <arguments>
 <arg>http://localhost:4723/wd/hub</arg>
 <arg>platformName=Android</arg>
-<arg>platformVersion=6.0</arg>
-<arg>deviceName=LEY7A07330000504</arg>
+<arg>platformVersion=7.0</arg>
+<arg>deviceName=@Nexus_5X</arg>
 <arg>app=com.eliasnogueira.trianguloapp</arg>
 <arg>automationName=appium</arg>
 <arg>appPackage=com.eliasnogueira.trianguloapp</arg>
-<arg>app=C:\\Users\\anderson.benet\\git\\mobile_test_triangulo_robotframework\\util\\TrianguloApp.apk</arg>
+<arg>app=C:\\Users\\anderson_benet\\PycharmProjects\\mobile_test_triangulo_robotframework\\util\\TrianguloApp.apk</arg>
 <arg>appActivity=MainActivity</arg>
 </arguments>
-<status status="PASS" starttime="20181129 14:00:08.603" endtime="20181129 14:00:36.317"></status>
+<status status="PASS" starttime="20191105 16:35:17.987" endtime="20191105 16:35:46.501"></status>
 </kw>
-<status status="PASS" starttime="20181129 14:00:08.603" endtime="20181129 14:00:36.317"></status>
+<status status="PASS" starttime="20191105 16:35:17.987" endtime="20191105 16:35:46.501"></status>
 </kw>
-<status status="PASS" starttime="20181129 14:00:08.603" endtime="20181129 14:00:36.317" critical="yes"></status>
+<status status="PASS" starttime="20191105 16:35:17.987" endtime="20191105 16:35:46.502" critical="yes"></status>
 </test>
 <doc>demo for appium library</doc>
-<status status="PASS" starttime="20181129 14:00:08.465" endtime="20181129 14:00:36.318"></status>
+<status status="PASS" starttime="20191105 16:35:17.689" endtime="20191105 16:35:46.503"></status>
 </suite>
 <statistics>
 <total>

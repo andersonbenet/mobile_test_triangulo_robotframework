@@ -5,6 +5,6 @@ Library           AppiumLibrary
 Resource  ../resource/triangulo_resource.robot
 
 
-***Test Case***
+*** Test Case ***
 CT 001: Start application CTAppium
     Start App CTAppium
